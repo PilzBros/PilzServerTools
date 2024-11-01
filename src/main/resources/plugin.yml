@@ -1,0 +1,33 @@
+name: PilzServerTools
+main: com.pilzbros.PilzServerTools.PilzServerTools
+version: 2.3
+description: Complete administration tools for your server!
+author: Austin Pilz
+website: http://dev.bukkit.org/bukkit-plugins/pilz-server-tools
+commands:
+  pst:
+    description: Check if plugin is running
+  helpme:
+    description: HelpMe command
+  supervise:
+    description: Supervise a player to see what they’re up to
+  silence:
+    description: Silence mode for players
+  lockdown:
+    description: Server Lockdown
+permissions:
+  pst.*:
+    description: Gives all access to Pilz Server Tools commands
+    children:
+      pst.admin: true
+      pst.helper: true
+    default: op
+  pst.admin:
+    description: Gives admin access to Pilz Server Tools commands
+    children:
+      pst.helper: true
+  pst.helper:
+    description: Gives admin access to /helpme commands
+  pst.user:
+    description: User level permissions
+    default: true
