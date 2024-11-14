@@ -79,4 +79,8 @@ Most servers forget that players can easily access a list of their plugins by us
 ## Permissions
 - `PST.admin` - automatically assigned to OP's. Gives access to all administrative commands
 - `PST.helper` - gives access to admin side of /helpme (Can assist users in need) 
-- `PST.user` - default permission level. Gives access to basic user commands such as "/helpme" 
+- `PST.user` - default permission level. Gives access to basic user commands such as "/helpme"
+
+## Legacy Links
+- [Spigot Page](https://www.spigotmc.org/resources/pilzservertools.9433/)
+- [Bukkit Page](https://web.archive.org/web/20140909064719/http://dev.bukkit.org/bukkit-plugins/pilz-server-tools/)
